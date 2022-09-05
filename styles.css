@@ -1,0 +1,101 @@
+html {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body { 
+    max-width: 1310px;
+    margin: auto;
+    }
+main {
+    background: white;
+    padding: 10px;
+}
+
+/* header and navigation */
+header {
+    height: 100px;
+}
+h1 {
+    color: #007D7B;
+    font-size: 40px;
+    float: left;
+}
+nav {
+    float: right;
+    padding-top: 20px;
+}
+nav li{
+    display: inline;
+}
+nav a {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 50px;
+}
+nav a:hover {
+    color: #007D7B;
+}
+[href="#top"] {
+    background: #007D7B;
+    position:fixed;
+    bottom:0px;
+    right:0px;   
+}
+
+
+/* main */
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+
+/* ABOUT */
+#about {
+    text-align: right;
+    max-width: 420px;
+    max-height: 190px;
+    float: right;
+}
+
+#about h2, #about p {
+    margin: 5px;
+}
+
+
+/* images */
+.banner img {
+    width: 850px;
+    float: left;  
+}
+
+figcaption {
+    font-size: 16px;
+}
+
+/* GALLERY */
+.first div, .second div, .third div, .fourth div {
+    display: inline-block;
+}
+
+
+/* form */
+#contact {
+    background-color: black;
+    color: #fff;
+}
+#contact h2 {
+    font-size: 40px;
+}
+#contact p {
+    font-size: 20px;
+}
+
+/* footer */
+footer p {
+    font-size: 16px;
+    color: #fff;
+}
